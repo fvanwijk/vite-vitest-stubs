@@ -1,0 +1,25 @@
+{
+  "name": "vite-vitest-stubs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@testing-library/vue": "6.6.1",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "jsdom": "20.0.0",
+    "typescript": "^4.6.4",
+    "unplugin-vue-components": "0.22.4",
+    "vite": "^3.0.0",
+    "vitest": "0.21.1",
+    "vue-tsc": "^0.38.4"
+  }
+}
