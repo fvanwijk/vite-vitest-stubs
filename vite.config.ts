@@ -15,5 +15,6 @@ export default defineConfig({
   ],
   test: {
     environment: "jsdom",
+    globals: true, // This is required for Wallaby because somehow it runs tests in node_modules/cssstyle
   },
 });
